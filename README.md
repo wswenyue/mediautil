@@ -47,3 +47,7 @@ jAddressBook is an address book with float XML format of addresses and another p
 Other Projects of Suresh
 
 Jdatestamp: A Lossless Date Stamper for Digital Pictures
+
+------
+#说点自己的话
+###由于项目需要，想要添加一些属性到照片里，也就是修改图片的Exif信息，自己找了好久，找到了不少，但都是用来读取属性的而不能修改属性，最后终于找到这个`MediaUtil`说能修改属性。可是jar包是下载到了，文档却找不到，主页也访问不了，最后只能硬生生的看反编译的源码，看的很费劲。忍不了了，就想办法把源码从 http://sourceforge.net 上搬到了github上以方便大家使用
